@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+body
+{
+  font-family: 'Roboto', serif;
+  background-color: black;
+  font-size: 22px;
+  padding-top: 162px;
+
+
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.social
+{
+  width: 29px;
+  height: 31px;
+  margin-left: 5px;
+}
+
+.bg-dark
+{
+  background-color: #000000!important
+}
+
+
+.mainmenu
+{
+  position: absolute;
+  margin-top: 80px;
+  left: 50%;
+  font-size: 22px;
+  font-family: 'Roboto', serif;
+
+}
+.aboutus
+{
+  padding-top: 175px;
+}
+
+.activeitem
+{
+  content: url("menudiv.png");
+  margin-bottom: 66px
+}
+.divider
+{
+content: url("div.png") ;
+width: 90%;
+position: relative;
+left: 5%;
+}
+.header
+{
+font-size: 22px;
+color: white;
+margin-left: 400px;
+
+}
+
+section
+{
+  padding-top: 38px;
+min-height: 860px;
+}
+
+.first
+{
+  min-height: 1080px
+}
+
+.role
+{
+  font-size: 16pt;
+
+}
+
+.Name
+{
+  font-size: 20pt;
+
+}
+
+.teammate
+{
+  padding-left: 85px;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+ .carousel-indicators  .active {
+  border-radius:50%;
+  border:10px solid;  height: 70px!important;
+  border-color: white;
+  width: 70px!important;
+  color: transparent;
+  background-color:transparent;
+
+
+}
+
+[data-target="#carouselExampleIndicators"] {
+  border-radius:50%;
+ height: 50px!important;
+  width: 50px!important;
+}
+ .carousel-indicators
+ {
+
+
+ position: absolute;
+ bottom: -100px;
+}
+.carousel-inner
+{
+  min-height: 800px;
+}
+
+
+
+
+
+
+
+@media (max-width: 575px) and (max-width: 767px) and  (max-width: 991px) {
+
+.logo
+{
+  max-width: 200px;
+  max-height: 100px;
+  margin-bottom: 50px;
+
+}
+
+
+
+.header
+{
+  margin-left: 0px;
+
+}
+.mainmenu
+{
+  position: relative;
+  margin: 0;
+}
+
+  }
